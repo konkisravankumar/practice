@@ -1,2 +1,13 @@
-a = 10
+# a = 10
+print(1+3j)
+print("Hello, USTians!")
+print(type(10))
+print(type(0.234))
+print(type(1+3j))
+print(4+3)
+print(4-3)
+print(4/3)
+print(4/3)
+print(4%3)
 print(2.5**3)
+print(abs(-2))
