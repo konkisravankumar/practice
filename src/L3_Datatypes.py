@@ -75,14 +75,73 @@
 # print(classroom.get("sravan", "No item"))
 
 ###set
-a = (1,2,3,4,5)
-b = ("sravan", "konki", "kumar", "pedda", "srunga")
-print(a, type(a))
-print(b, type(b))
-a = set(a)
-b = set(b)
-print(a, type(a))
-print(b, type(b))
+# a = (1,2,3,4,5)
+# b = ("sravan", "konki", "kumar", "pedda", "srunga")
+# print(a, type(a))
+# print(b, type(b))
+# a = set(a)
+# b = set(b)
+# print(a, type(a))
+# print(b, type(b))
+# m = {1, 2, 3, 4}
+# n = {1, 6, 7, 8}
+# print(m.intersection(n))
+# print(m.union(n))
+
+#####range
+
+# a = list(range(10))
+# print(a, type(a))
+#
+# a = list(range(2, 8, 2))
+# print(a, type(a))
+#
+# a = list(range(8, 2, -2))
+# print(a, type(a))
+
+
+####coverting datatypes
+#
+# a = ("sravan")
+# a = list (a)
+# a = tuple (a)
+# a = set (a)
+# a= [[1,2], [3,4]]
+# print (a)
+
+### Boolean numbers of data types
+
+# a = []
+# b = [1,2]
+# print(bool(a))
+# print (bool(b))
+
+#### strings
+# print ("iam sravan kumar")
+# print ('iam sravan kumar')
+# print ('''iam
+# sravan
+# kumar''')
+# a = ("iam from india")
+# print(a, type(a))
+# print(a[4])
+# print(a[7])
+# print(a[-4])
+# print(a[0:5])
+# print(a[:6])
+# print(a[9:])
+# print(a[:])
+# print(len(a))
+# print(a.upper())
+# print(a.split())
+# print(a.split("i"))
+a = ("i like coffe. i want to have a cup of coffee. you too?")
+b = " "
+c = "."
+d = "sravan"
+print(b.join(a))
+print(c.join(a))
+print(d.join(a))
 
 
 
